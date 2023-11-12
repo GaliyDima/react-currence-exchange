@@ -1,0 +1,45 @@
+.root {
+  margin-top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &_input,
+  &_select {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff;
+    transition: 0.3s;
+
+    &:focus {
+      outline-color: #e8e8e8;
+      background: #e8e8e8;
+      box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+      transition: 0.3s;
+    }
+  }
+  &_select {
+    margin-left: 20px;
+  }
+
+  &_result {
+    margin-top: 20px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
+    }
+  }
+}

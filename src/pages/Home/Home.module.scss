@@ -1,0 +1,26 @@
+.root {
+  margin-top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+
+  &_card {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  }
+
+  &_img {
+    cursor: pointer;
+  }
+}

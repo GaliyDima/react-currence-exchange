@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 18vw;
+  gap: 20px;
+  border-bottom: 1px solid #7e809f;
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.14);
+
+  &_tabs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &_item {
+      font-size: 26px;
+      font-weight: 500;
+      color: #7e809f;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
